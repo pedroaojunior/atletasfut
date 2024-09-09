@@ -4,48 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Atletas</title> 
+    <title>JogadorBR</title> 
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        img {
+            margin-right: 10px; /* Ajusta o espaço entre a imagem e o texto */
+        }
+    </style>
 </head>
 <body>
-    <header>
-    <h1>Jogador Brasileiros de Futebol</h1>
-    </header>
+    <div class="container">  
+        <img src="https://raw.githubusercontent.com/pedroaojunior/atletasfut/main/bola01.png" alt="Logo do Atletas Brasileiros" width="50" height="50">
+        <h1>Jogadores Brasileiros no Estrangeiro de Futebol</h1> 
+    </div>
+
     <main>
       <section>
-       <input type="text" placeholder="Digite o nome do Jogador ou time ou tag" id="campo-pesquisa"> 
+       <input type="text" placeholder="Digite o nome do Jogador ou time ou a tag" id="campo-pesquisa"> 
        <button onclick="pesquisar()">Pesquisar</button>
       </section>
       <section class="resultados-pesquisa" id="resultados-pesquisa"> 
-      <!-- <div class="item-resultado">
-           <h2>
-               <a href = "#"target ="_blank">Neymar Jr </a>
-            </h2>
-            <p class="descricao-meta">Neymar Jr. é um dos maiores jogadores de futebol da atualidade. 
-                Revelado pelo Santos, logo chamou a atenção do mundo com seu drible fácil, 
-                velocidade e finalização precisa. 
-           </p>
-           <a href="https://pt.wikipedia.org/wiki/Neymar"target="_blank">Mais Informaçoes</a> 
-        </div>
-         <div class="item-resultado">
-            <h2>
-                <a href = "#"target ="_blank">Vini Jr </a>
-            </h2>
-            <p class="descricao-meta">Vini Jr. é um dos maiores jogadores de futebol da Europa. 
-                Revelado pelo Flamengo, logo chamou a atenção do maior time do mundo Real Madrid, 
-                velocidade e finalização precisa. 
-           </p>
-           <a href="https://pt.wikipedia.org/wiki/Vinícius_Júnior"target="_blank">Mais Informaçoes</a> 
-       </div>
-        <div class="item-resultado">
-            <h2>
-               <a href = "#"target ="_blank">Rodrigo Goes </a>
-            </h2>
-          <p class="descricao-meta">Rosdrigo Goes. é um dos maiores jogadores de futebol do Real Madrid. 
-               Revelado pelo Santos, hoje joga nas principal liga da Europa, joga em varias posições no campo.
-           </p>
-          <a href="https://pt.wikipedia.org/wiki/Rodrygo"target="_blank">Mais Informaçoes</a> 
-        </div> -->
-        </section>
+      
     </main>
     
     <footer>
@@ -54,11 +37,15 @@
     </footer>
   <a href="https://api.whatsapp.com/send?phone=5585997976979" target="_blank" class="whatsapp-button">
         <i class="fa fa-whatsapp"></i>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Ícone do WhatsApp para contato">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Ícone do WhatsApp para contato"style= "width: 25px; height: 25px;">
     </a>
     <a href="https://www.instagram.com/#pedroaojunior/" target="_blank" class="instagram-button">
         <i class="fa fa-instagram"></i>
-        <img src="https://img.icons8.com/ios/50/instagram-new.png" alt="Ícone do Instagram">
+        <img src="https://img.icons8.com/ios/50/instagram-new.png" alt="Ícone do Instagram"style= "width: 25px; height: 25px;">
+    </a>
+    <a href="https://pt-br.facebook.com/login/device-based/regular/login/" target="_blank" class="facebook-button">
+        <i class="fa fa-facebook"></i>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Ícone do facebook" style= "width: 25px; height: 25px;">
     </a>
     <script src="dados.js"></script>
     <script src="app.js"></script>

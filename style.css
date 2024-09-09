@@ -127,8 +127,12 @@ footer {
     line-height: 50px;
     z-index: 999;
   }
-  .fa-whatsapp .fa-instagram{
+  .fa-whatsapp .fa-instagram .facebook-button{
     font-size: 24px;
+}
+.whatsapp-button {
+  bottom: 10px; /* Ajuste a distância para cima do botão do WhatsApp */
+
   }
   .instagram-button {
     position: fixed;
@@ -144,7 +148,23 @@ footer {
     z-index: 999;
   }
   .instagram-button {
-    bottom: 65px; /* Ajuste a distância para cima do botão do WhatsApp */
+    bottom: 40px; /* Ajuste a distância para cima do botão do WhatsApp */
+  }
+  .facebook-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: none;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    z-index: 999;
+  }
+  .facebook-button {
+    bottom: 75px; /* Ajuste a distância para cima do botão do WhatsApp */
   }
 
   @media (max-width: 768px) { */
@@ -196,5 +216,9 @@ footer {
 
     footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+    }
+    img {
+        flex-shrink: 0;
+        margin-right: 10px;
     }
 }

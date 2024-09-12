@@ -139,7 +139,7 @@ footer {
   .instagram-button {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 60px;
     background-color: none;
     color: white;
     border-radius: 50%;
@@ -150,12 +150,12 @@ footer {
     z-index: 999;
   }
   .instagram-button {
-    bottom: 40px; /* Ajuste a distância para cima do botão do WhatsApp */
+    bottom: 10px; /* Ajuste a distância para cima do botão do WhatsApp */
   }
   .facebook-button {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 100px;
     background-color: none;
     color: white;
     border-radius: 50%;
@@ -166,7 +166,7 @@ footer {
     z-index: 999;
   }
   .facebook-button {
-    bottom: 75px; /* Ajuste a distância para cima do botão do WhatsApp */
+    bottom: 10px; /* Ajuste a distância para cima do botão do WhatsApp */
   }
 
   @media (max-width: 768px) { */

@@ -28,13 +28,15 @@ function pesquisar(){
             // cria um novo elemento
             resultados += `
             <div class="item-resultado">
-                <h2>
-                    <a href="#" target="_blank">${dado.titulo}</a>
-                </h2>
-                <p class="descricao-meta">${dado.descricao}</p>
-                <a href=${dado.link} target="_blank">Melhores Lances</a>
-            </div>
-        `;
+              <div class="container">
+                  <img src="${dado.foto}" width="90" height="100" alt="${dado.titulo}">
+                  <div class="text-container">
+                    <h2><a href="#" target="_blank">${dado.titulo}</a></h2>
+                    <p class="descricao-meta">${dado.descricao}</p>
+                    <a href=${dado.link} target="_blank">Melhores Lances</a>
+                   </div>
+                </div>   
+            </div>`;
         }
     }
 

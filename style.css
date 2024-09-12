@@ -104,8 +104,10 @@ section button:hover {
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color:#F5F7F8; /* Cor de fundo do rodapé */
-    color: #45474B; /* Cor do texto */
+  /*  background-color:#F5F7F8; /* Cor de fundo do rodapé */
+    background-color:#30475E; 
+   /*  color: #45474B; /* Cor do texto */
+    color:#F5F7F8;
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
@@ -217,8 +219,39 @@ footer {
     footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
     }
-    img {
+    .img {
         flex-shrink: 0;
         margin-right: 10px;
+
     }
+    .item-resultado img {
+        display: block;
+        margin: 0 auto; /* Centraliza a imagem horizontalmente */
+        border-radius: 10px; /* Adiciona cantos arredondados */
+    }
+    .jogador {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .jogador-foto {
+        width: 90px;
+        height: 100px;
+        object-fit: cover;
+        margin-right: 20px;
+        align-self: center; /* Centraliza a imagem verticalmente */
+    }
+    
+    .jogador-info {
+        flex: 1;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza os itens verticalmente */
+   }
+   .text-container {
+    margin-top: 20px;
+}
 }

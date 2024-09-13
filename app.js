@@ -28,8 +28,10 @@ function pesquisar(){
             // cria um novo elemento
             resultados += `
             <div class="item-resultado">
-              <div class="container">
+             <div class="container">
+                 <a href="${dado.wiki}" target="_blank"> 
                   <img src="${dado.foto}" width="90" height="100" alt="${dado.titulo}">
+                 </a>
                   <div class="text-container">
                     <h2><a href="#" target="_blank">${dado.titulo}</a></h2>
                     <p class="descricao-meta">${dado.descricao}</p>

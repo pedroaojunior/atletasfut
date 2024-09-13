@@ -6,7 +6,7 @@ function pesquisar(){
 
     // se campoPesquisa for uma string sem nada
     if (!campoPesquisa) {
-        section.innerHTML = "<p>Você precisa digitar o nome de um atleta</p>"
+        section.innerHTML = "<p>Digite o nome do Jogador ou time ou a tag</p>"
         return 
     }
 
@@ -28,7 +28,7 @@ function pesquisar(){
             // cria um novo elemento
             resultados += `
             <div class="item-resultado">
-             <div class="container">
+              <div class="container">
                  <a href="${dado.wiki}" target="_blank"> 
                   <img src="${dado.foto}" width="90" height="100" alt="${dado.titulo}">
                  </a>
@@ -49,3 +49,4 @@ function pesquisar(){
     // Atribui os resultados gerados à seção HTML
     section.innerHTML = resultados;
 }
+   
